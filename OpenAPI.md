@@ -287,7 +287,7 @@ spring-boot-configuration-professor的作用是自动生成配置的代码提示
 
 
 
-5. 创建META-INF文件
+5. 在resources目录下创建META-INF文件
 
    ![image-20240624105624239](.\image\image-20240624105624239.png)
 
@@ -547,8 +547,6 @@ create table if not exists openapi.`user_interface_info`
      ```
 
   5. 限流[RequestRateLimiter GatewayFilter Factory :: Spring Cloud Gateway](https://docs.spring.io/spring-cloud-gateway/reference/spring-cloud-gateway/gatewayfilter-factories/requestratelimiter-factory.html)
-  
-  6. 
   
      
 
@@ -885,3 +883,5 @@ limit 5
 1. 如何获取接口转发服务器的地址
 
    网关启动时，获取所有的接口信息，维护到内存的hashmap中；有请求时，根据请求的url路径或其他参数（比如host请求头）来判断应该转发到哪台服务器，以及用于校验接口是否存在
+
+2. 问题：spring 是如何进入到@configuration注解的类中的

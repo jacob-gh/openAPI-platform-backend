@@ -18,6 +18,18 @@
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
+
+        <dependency>
+            <groupId>com.jacob.openapi.common</groupId>
+            <artifactId>openAPI-platform-common</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jacob.opanapi.clientsdk</groupId>
+            <artifactId>openAPI-platform-clientsdk</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
